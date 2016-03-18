@@ -1,0 +1,43 @@
+// Archivo: estilos.scss
+// Estos son los comentarios en SASS
+// Decretar Variables
+$5: 5%; /* 5% */
+$10:10%;/*10*/
+$white: white; /*  Blanco */
+$cian: #89BCF2; /* Cian */
+$opacidad: rgba(0, 0, 0, 0.4); /* Opacar */
+$gray:#CECECE;
+
+/* Archivo: estilos.css */
+/* Estos son los comentarios en CSS, que aparecerán directamente en el archivo .css */
+
+// Comenzamos los estilos en SASS
+
+nav{
+	padding:$5;
+	}
+
+#slide{
+	background-image: url(../images/head.jpg);
+	background-size: 100%;
+	background-blend-mode:color;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: $10;
+}
+.txt-white{
+	color:$w; 
+}
+.block{
+	display: in-block;
+}
+.container-fluid{
+	background-color: $bg-dark;
+	background-size: 100% 100%;
+}
+.cont-w{
+	color: $txt-w;
+	
+}
+
+
+

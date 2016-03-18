@@ -1,0 +1,43 @@
+/*
+Syntax error: Invalid CSS after "$": expected identifier, was "5: 5%; /* 5% *\/"
+        on line 4 of main.scss
+
+1: // Archivo: estilos.scss
+2: // Estos son los comentarios en SASS
+3: // Decretar Variables
+4: $5: 5%; /* 5% *\/
+5: $10:10%;/*10*\/
+6: $white: white; /*  Blanco *\/
+7: $cian: #89BCF2; /* Cian *\/
+8: $opacidad: rgba(0, 0, 0, 0.4); /* Opacar *\/
+9: $gray:#CECECE;
+
+Backtrace:
+main.scss:4
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1080:in `tok!'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:511:in `variable'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:543:in `block_contents'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `each'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:283:in `block in watch'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"$\": expected identifier, was \"5: 5%; /* 5% */\"\A         on line 4 of main.scss\A \A 1: // Archivo: estilos.scss\A 2: // Estos son los comentarios en SASS\A 3: // Decretar Variables\A 4: $5: 5%; /* 5% */\A 5: $10:10%;/*10*/\A 6: $white: white; /*  Blanco */\A 7: $cian: #89BCF2; /* Cian */\A 8: $opacidad: rgba(0, 0, 0, 0.4); /* Opacar */\A 9: $gray:#CECECE;"; }
